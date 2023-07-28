@@ -4,11 +4,11 @@
 #include <sys/wait.h>
 
 /**
- * * main - zombies
- * *
- * * Description: make five zombies
- * * Return: 0 for success
- * */
+ * main - zombies
+ *
+ * Description: make five zombies
+ * Return: 0 for success
+ */
 int main(void)
 {
 	int i;
