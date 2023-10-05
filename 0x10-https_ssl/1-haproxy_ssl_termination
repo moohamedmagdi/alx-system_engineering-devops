@@ -38,7 +38,7 @@ frontend www-https
 
 backend web-backend
     balance roundrobin
-    server 1026-web-01 3.236.116.4 check
+    server 1026-web-01 100.26.153.82 check
     server 1026-web-02 3.238.201.120 check
 
 backend letsencrypt-backend
