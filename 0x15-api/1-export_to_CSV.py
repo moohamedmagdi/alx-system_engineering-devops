@@ -28,5 +28,6 @@ def todocsv():
             f.write('"{}","{}","{}","{}"\n'.format(userid, name,
                                                    stat[i], titles[i]))
 
+
 if __name__ == "__main__":
     todocsv()
